@@ -1,0 +1,260 @@
+file:///home/aibry/.npm/_npx/aab42732f01924e5/node_modules/serve/build/main.js:377
+      throw new Error(
+            ^
+
+Error: Unknown --listen endpoint scheme (protocol): 127.0.0.1:
+    at parseEndpoint (file:///home/aibry/.npm/_npx/aab42732f01924e5/node_modules/serve/build/main.js:377:13)
+    at type (/home/aibry/.npm/_npx/aab42732f01924e5/node_modules/arg/index.js:70:15)
+    at arg (/home/aibry/.npm/_npx/aab42732f01924e5/node_modules/arg/index.js:170:24)
+    at parseArguments (file:///home/aibry/.npm/_npx/aab42732f01924e5/node_modules/serve/build/main.js:414:28)
+    at file:///home/aibry/.npm/_npx/aab42732f01924e5/node_modules/serve/build/main.js:503:40
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.22.0
+ INFO  Accepting connections at http://127.0.0.1:8082
+ HTTP  4/8/2026 4:40:20 PM 127.0.0.1 HEAD /
+ HTTP  4/8/2026 4:40:20 PM 127.0.0.1 Returned 200 in 1117 ms
+ HTTP  4/8/2026 4:42:51 PM 127.0.0.1 GET /
+ HTTP  4/8/2026 4:42:51 PM 127.0.0.1 Returned 200 in 21 ms
+ HTTP  4/8/2026 4:42:51 PM 127.0.0.1 GET /assets/index-BMeevyBs.css
+ HTTP  4/8/2026 4:42:51 PM 127.0.0.1 GET /assets/index-BUVanqvB.js
+ HTTP  4/8/2026 4:42:51 PM 127.0.0.1 Returned 200 in 508 ms
+ HTTP  4/8/2026 4:42:51 PM 127.0.0.1 Returned 200 in 535 ms
+ HTTP  4/8/2026 4:42:52 PM 127.0.0.1 GET /favicon.ico
+ HTTP  4/8/2026 4:42:52 PM 127.0.0.1 Returned 200 in 14 ms
+ HTTP  4/8/2026 5:55:55 PM 127.0.0.1 GET /
+ HTTP  4/8/2026 5:55:55 PM 127.0.0.1 Returned 200 in 12 ms
+ HTTP  4/8/2026 5:56:09 PM 127.0.0.1 GET /
+ HTTP  4/8/2026 5:56:09 PM 127.0.0.1 Returned 200 in 11 ms
+ HTTP  4/8/2026 6:36:52 PM 127.0.0.1 GET /
+ HTTP  4/8/2026 6:36:52 PM 127.0.0.1 Returned 200 in 15 ms
+ HTTP  4/8/2026 6:36:52 PM 127.0.0.1 GET /assets/index-BW0FsO60.js
+ HTTP  4/8/2026 6:36:52 PM 127.0.0.1 GET /assets/index-C7cfpCmz.css
+ HTTP  4/8/2026 6:36:52 PM 127.0.0.1 Returned 200 in 21 ms
+ HTTP  4/8/2026 6:36:52 PM 127.0.0.1 Returned 200 in 48 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster2.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster1.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/comparator/Comparator1.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/comparator/Comparator2.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster2.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster3.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster3.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster1.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster1.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster2.PNG
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 162 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 140 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 164 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 129 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 129 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 112 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 165 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 154 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 174 ms
+ HTTP  4/8/2026 6:36:53 PM 127.0.0.1 Returned 200 in 169 ms
+ HTTP  4/8/2026 6:36:55 PM 127.0.0.1 GET /favicon.ico
+ HTTP  4/8/2026 6:36:55 PM 127.0.0.1 Returned 200 in 11 ms
+ HTTP  4/9/2026 11:01:03 AM 127.0.0.1 GET /
+ HTTP  4/9/2026 11:01:03 AM 127.0.0.1 Returned 200 in 32 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /assets/index-BW0FsO60.js
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 15 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /assets/index-C7cfpCmz.css
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 8 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/comparator/Comparator1.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/comparator/Comparator2.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 21 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 40 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster1.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 7 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster2.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 7 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster3.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 8 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster1.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 9 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster3.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 18 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster2.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster2.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 27 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 28 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster1.PNG
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 13 ms
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 GET /favicon.ico
+ HTTP  4/9/2026 11:01:04 AM 127.0.0.1 Returned 304 in 11 ms
+ HTTP  4/10/2026 12:24:37 AM 127.0.0.1 GET /
+ HTTP  4/10/2026 12:24:37 AM 127.0.0.1 Returned 200 in 686 ms
+ HTTP  4/10/2026 12:24:37 AM 127.0.0.1 GET /assets/index-C7cfpCmz.css
+ HTTP  4/10/2026 12:24:37 AM 127.0.0.1 Returned 200 in 53 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /assets/index-BW0FsO60.js
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 16 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /favicon.ico
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster1.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster1.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 14 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 37 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 16 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/comparator/Comparator2.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 8 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster3.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 19 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/comparator/Comparator1.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 22 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster1.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 12 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster3.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 9 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster2.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 8 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster2.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster2.PNG
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 28 ms
+ HTTP  4/10/2026 12:24:38 AM 127.0.0.1 Returned 200 in 30 ms
+ HTTP  4/10/2026 1:33:06 PM 127.0.0.1 GET /
+ HTTP  4/10/2026 1:33:06 PM 127.0.0.1 Returned 200 in 348 ms
+ HTTP  4/10/2026 1:33:06 PM 127.0.0.1 GET /assets/index-C7cfpCmz.css
+ HTTP  4/10/2026 1:33:06 PM 127.0.0.1 Returned 304 in 10 ms
+ HTTP  4/10/2026 1:33:06 PM 127.0.0.1 GET /assets/index-BW0FsO60.js
+ HTTP  4/10/2026 1:33:06 PM 127.0.0.1 Returned 304 in 7 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/comparator/Comparator1.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 12 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster2.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 11 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster1.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster1.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 20 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 25 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster2.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster1.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/comparator/Comparator2.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 19 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 19 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 16 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster3.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 7 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster3.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 9 ms
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster2.PNG
+ HTTP  4/10/2026 1:33:07 PM 127.0.0.1 Returned 304 in 10 ms
+ HTTP  4/10/2026 1:33:41 PM 127.0.0.1 GET /
+ HTTP  4/10/2026 1:33:41 PM 127.0.0.1 Returned 200 in 7 ms
+ HTTP  4/11/2026 3:50:41 PM 127.0.0.1 GET /
+ HTTP  4/11/2026 3:50:41 PM 127.0.0.1 Returned 200 in 302 ms
+ HTTP  4/11/2026 3:50:42 PM 127.0.0.1 GET /assets/index-BW0FsO60.js
+ HTTP  4/11/2026 3:50:42 PM 127.0.0.1 Returned 304 in 7 ms
+ HTTP  4/11/2026 3:50:42 PM 127.0.0.1 GET /assets/index-C7cfpCmz.css
+ HTTP  4/11/2026 3:50:42 PM 127.0.0.1 Returned 304 in 6 ms
+ HTTP  4/11/2026 3:50:42 PM 127.0.0.1 GET /screenshots/comparator/Comparator1.PNG
+ HTTP  4/11/2026 3:50:42 PM 127.0.0.1 Returned 304 in 12 ms
+ HTTP  4/11/2026 3:50:42 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster1.PNG
+ HTTP  4/11/2026 3:50:42 PM 127.0.0.1 Returned 304 in 10 ms
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster1.PNG
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster2.PNG
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 Returned 304 in 35 ms
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 Returned 304 in 28 ms
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster3.PNG
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster1.PNG
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 Returned 304 in 12 ms
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 Returned 304 in 14 ms
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 GET /screenshots/comparator/Comparator2.PNG
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 Returned 304 in 6 ms
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster2.PNG
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 Returned 304 in 6 ms
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster2.PNG
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 Returned 304 in 7 ms
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster3.PNG
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 Returned 200 in 5 ms
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 GET /favicon.ico
+ HTTP  4/11/2026 3:50:43 PM 127.0.0.1 Returned 304 in 149 ms
+ HTTP  4/11/2026 3:51:03 PM 127.0.0.1 GET /
+ HTTP  4/11/2026 3:51:03 PM 127.0.0.1 Returned 200 in 7 ms
+ HTTP  4/17/2026 5:24:32 AM 127.0.0.1 GET /
+ HTTP  4/17/2026 5:24:32 AM 127.0.0.1 Returned 200 in 147 ms
+ HTTP  4/17/2026 5:24:32 AM 127.0.0.1 GET /assets/index-BW0FsO60.js
+ HTTP  4/17/2026 5:24:32 AM 127.0.0.1 Returned 200 in 42 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /assets/index-C7cfpCmz.css
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 200 in 27 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/comparator/Comparator2.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster1.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 200 in 26 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 304 in 17 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster1.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 304 in 9 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/comparator/Comparator1.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 200 in 8 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster3.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster2.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 200 in 57 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster3.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 200 in 65 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 304 in 47 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster2.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 304 in 56 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster1.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster2.PNG
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 304 in 85 ms
+ HTTP  4/17/2026 5:24:33 AM 127.0.0.1 Returned 200 in 59 ms
+ HTTP  4/17/2026 5:24:34 AM 127.0.0.1 GET /favicon.ico
+ HTTP  4/17/2026 5:24:34 AM 127.0.0.1 Returned 200 in 18 ms
+ HTTP  4/17/2026 5:24:58 AM 127.0.0.1 GET /
+ HTTP  4/17/2026 5:24:58 AM 127.0.0.1 Returned 200 in 7 ms
+ HTTP  4/18/2026 7:10:43 AM 127.0.0.1 GET /
+ HTTP  4/18/2026 7:10:43 AM 127.0.0.1 Returned 200 in 1206 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /assets/index-BW0FsO60.js
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 14 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /assets/index-C7cfpCmz.css
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 5 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/comparator/Comparator1.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/comparator/Comparator2.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 200 in 44 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 46 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster1.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster3.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 27 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 18 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster1.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 200 in 5 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster2.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 200 in 9 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster1.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 21 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster3.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster2.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 21 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 29 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster2.PNG
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 38 ms
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 GET /favicon.ico
+ HTTP  4/18/2026 7:10:45 AM 127.0.0.1 Returned 304 in 53 ms
+ HTTP  4/18/2026 7:18:42 PM 127.0.0.1 GET /
+ HTTP  4/18/2026 7:18:42 PM 127.0.0.1 Returned 200 in 750 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /assets/index-BW0FsO60.js
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 14 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /assets/index-C7cfpCmz.css
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 200 in 14 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/comparator/Comparator1.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/comparator/Comparator2.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 31 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 17 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster1.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 6 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster1.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 5 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster2.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/trackmaster/TrackMaster3.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 17 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 14 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/chordmaster/ChordMaster2.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 200 in 13 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster1.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster2.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /screenshots/taskmaster/TaskMaster3.PNG
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 15 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 16 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 260 ms
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 GET /favicon.ico
+ HTTP  4/18/2026 7:18:43 PM 127.0.0.1 Returned 304 in 390 ms
+ HTTP  4/19/2026 10:16:46 PM 127.0.0.1 GET /
+ HTTP  4/19/2026 10:16:46 PM 127.0.0.1 Returned 200 in 283 ms

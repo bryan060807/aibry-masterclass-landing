@@ -1,0 +1,30 @@
+
+> aibry-masterclass-landing@0.1.0 dev
+> vite --host 0.0.0.0 --port 4174
+
+
+  VITE v7.3.2  ready in 2758 ms
+
+  ➜  Local:   http://localhost:4174/
+  ➜  Network: http://192.168.1.187:4174/
+  ➜  Network: http://100.86.8.95:4174/
+10:54:45 AM [vite] changed tsconfig file detected: /home/aibry/projects/aibry-masterclass-landing/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+10:54:45 AM [vite] vite.config.js changed, restarting server...
+10:54:45 AM [vite] server restarted.
+11:04:06 AM [vite] (client) hmr update /src/App.tsx
+11:04:34 AM [vite] (client) hmr update /src/styles.css
+
+> aibry-masterclass-landing@0.1.0 dev
+> vite --host 0.0.0.0 --port 4174
+
+
+  VITE v7.3.2  ready in 2319 ms
+
+  ➜  Local:   http://localhost:4174/
+  ➜  Network: http://192.168.1.187:4174/
+  ➜  Network: http://100.86.8.95:4174/
+11:08:26 AM [vite] (client) hmr update /src/App.tsx
+6:26:25 PM [vite] (client) hmr update /src/App.tsx
+6:27:41 PM [vite] (client) hmr update /src/App.tsx
+6:27:46 PM [vite] (client) hmr update /src/styles.css
+6:29:31 PM [vite] (client) hmr update /src/styles.css
