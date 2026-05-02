@@ -116,7 +116,7 @@ main {
   align-items: center;
   display: grid;
   gap: clamp(2.5rem, 6vw, 5rem);
-  grid-template-columns: minmax(0, 0.95fr) minmax(23rem, 1.05fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(24rem, 1.1fr);
   margin: 5.5rem auto 0;
   max-width: 1180px;
   position: relative;
@@ -124,7 +124,9 @@ main {
 }
 
 .hero__copy {
+  max-width: 43rem;
   min-width: 0;
+  overflow: hidden;
 }
 
 .eyebrow {
@@ -150,8 +152,12 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(3.1rem, 8vw, 6.9rem);
-  max-width: 13.5ch;
+  font-size: clamp(3.6rem, 7vw, 6.15rem);
+  letter-spacing: -0.075em;
+  line-height: 0.94;
+  max-width: 100%;
+  overflow-wrap: normal;
+  text-wrap: balance;
 }
 
 h2 {
@@ -241,6 +247,7 @@ p {
 .showcase {
   display: grid;
   gap: 1rem;
+  min-width: 0;
 }
 
 .showcase--compact {
@@ -700,6 +707,16 @@ p {
   .flow-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .hero__grid {
+    gap: 2.75rem;
+    grid-template-columns: minmax(0, 0.86fr) minmax(22rem, 1.14fr);
+  }
+
+  h1 {
+    font-size: clamp(3.3rem, 7.5vw, 5.35rem);
+    letter-spacing: -0.07em;
+  }
 }
 
 @media (max-width: 980px) {
@@ -717,9 +734,19 @@ p {
     margin-top: 4rem;
   }
 
+  .hero__copy {
+    max-width: 48rem;
+    overflow: visible;
+  }
+
   h1,
   h2 {
     max-width: 15ch;
+  }
+
+  h1 {
+    font-size: clamp(3.4rem, 12vw, 6rem);
+    letter-spacing: -0.07em;
   }
 }
 
@@ -744,6 +771,12 @@ p {
   .flow-grid,
   .footer {
     grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 16vw, 4.8rem);
+    letter-spacing: -0.065em;
+    max-width: 100%;
   }
 
   .showcase__frame {

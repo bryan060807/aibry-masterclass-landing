@@ -36,6 +36,11 @@ type AppScreenshotShowcaseProps = {
   compact?: boolean;
 };
 
+const CHORDMASTER_ASSET_VERSION = "20260501";
+
+const chordmasterAsset = (fileName: string) =>
+  `/screenshots/chordmaster/${fileName}?v=${CHORDMASTER_ASSET_VERSION}`;
+
 const capabilities: Capability[] = [
   {
     title: "Instant A/B switching",
@@ -125,17 +130,17 @@ const suiteApps: SuiteApp[] = [
     featured: true,
     screenshots: [
       {
-        src: "/screenshots/chordmaster/ChordMaster1.PNG",
+        src: chordmasterAsset("ChordMaster1.PNG"),
         alt: "ChordMaster app screenshot",
         label: "Workspace",
       },
       {
-        src: "/screenshots/chordmaster/ChordMaster2.PNG",
+        src: chordmasterAsset("ChordMaster2.PNG"),
         alt: "ChordMaster chord chart workspace screenshot",
         label: "Analysis",
       },
     ],
-    defaultScreenshot: "/screenshots/chordmaster/ChordMaster1.PNG",
+    defaultScreenshot: chordmasterAsset("ChordMaster1.PNG"),
   },
   {
     name: "TaskMaster",
@@ -215,13 +220,20 @@ function Hero() {
             Practice, analyze, and organize songs with an interactive chord workspace.
           </p>
           <p>
-            ChordMaster helps musicians work through songs faster with chord search, visual diagrams, song workspace tools, file uploads, and a cleaner practice flow for learning and arranging music.
+            ChordMaster helps musicians work through songs faster with chord
+            search, visual diagrams, song workspace tools, file uploads, and a
+            cleaner practice flow for learning and arranging music.
           </p>
           <div className="hero__actions" aria-label="Primary actions">
             <a className="button button--primary" href="#apps">
               Explore Apps
             </a>
-            <a className="button button--secondary" href={heroApp?.href ?? "https://chordmaster.aibry.shop"} target="_blank" rel="noreferrer">
+            <a
+              className="button button--secondary"
+              href={heroApp?.href ?? "https://chordmaster.aibry.shop"}
+              target="_blank"
+              rel="noreferrer"
+            >
               Open ChordMaster
             </a>
           </div>
@@ -231,6 +243,7 @@ function Hero() {
             ))}
           </div>
         </div>
+
         {heroApp ? (
           <AppScreenshotShowcase
             appName={heroApp.name}
@@ -272,12 +285,17 @@ function AppScreenshotShowcase({
   badge = "Live",
   compact = false,
 }: AppScreenshotShowcaseProps) {
-  const initialIndex = screenshots.findIndex((screenshot) => screenshot.src === defaultActiveScreenshot);
+  const initialIndex = screenshots.findIndex(
+    (screenshot) => screenshot.src === defaultActiveScreenshot,
+  );
   const [activeIndex, setActiveIndex] = useState(initialIndex >= 0 ? initialIndex : 0);
   const activeScreenshot = screenshots[activeIndex] ?? screenshots[0];
 
   return (
-    <section className={`showcase ${compact ? "showcase--compact" : ""}`} aria-label={`${appName} screenshot showcase`}>
+    <section
+      className={`showcase ${compact ? "showcase--compact" : ""}`}
+      aria-label={`${appName} screenshot showcase`}
+    >
       <div className="showcase__frame">
         <div className="showcase__meta">
           <div>
@@ -286,6 +304,7 @@ function AppScreenshotShowcase({
           </div>
           <span className="status-pill">{badge}</span>
         </div>
+
         <div className="laptop">
           <div className="laptop__camera" aria-hidden="true" />
           <div className="laptop__screen">
@@ -299,6 +318,7 @@ function AppScreenshotShowcase({
           <div className="laptop__base" aria-hidden="true" />
         </div>
       </div>
+
       <div className="showcase__thumbs" role="tablist" aria-label={`${appName} screenshots`}>
         {screenshots.map((screenshot, index) => {
           const isActive = index === activeIndex;
@@ -329,9 +349,12 @@ function ProductSpotlight() {
         <p className="eyebrow">Flagship product</p>
         <h2>TrackMaster Comparator turns mastering comparison into focused practice.</h2>
         <p>
-          Built for engineers, producers, and critical listeners who need more than passive lessons. TrackMaster gives you an instrument for hearing decisions clearly.
+          Built for engineers, producers, and critical listeners who need more than
+          passive lessons. TrackMaster gives you an instrument for hearing decisions
+          clearly.
         </p>
       </div>
+
       <div className="feature-grid">
         {capabilities.map((capability) => (
           <article className="feature-card" key={capability.title}>
@@ -352,9 +375,14 @@ function WhyAibry() {
         <p className="eyebrow">Why AIBRY</p>
         <h2>Most platforms give you content. AIBRY gives you instruments.</h2>
         <p>
-          Creative skill does not develop by watching alone. It develops through comparison, adjustment, feedback, and repetition inside the workflow you are trying to master.
+          Creative skill does not develop by watching alone. It develops through
+          comparison, adjustment, feedback, and repetition inside the workflow you are
+          trying to master.
         </p>
-        <p>The Masterclass App Series pairs concise instruction with purpose-built tools, helping users practice real decisions instead of collecting more passive lessons.</p>
+        <p>
+          The Masterclass App Series pairs concise instruction with purpose-built tools,
+          helping users practice real decisions instead of collecting more passive lessons.
+        </p>
       </div>
     </section>
   );
@@ -366,8 +394,12 @@ function CategoryGrouping() {
       <div className="section-heading">
         <p className="eyebrow">Product categories</p>
         <h2>One system, three skill domains.</h2>
-        <p>The suite spans listening, music intelligence, and execution so practice connects directly to the work.</p>
+        <p>
+          The suite spans listening, music intelligence, and execution so practice connects
+          directly to the work.
+        </p>
       </div>
+
       <div className="category-grid">
         {categoryGroups.map((group) => (
           <article className="category-card" key={group.name}>
@@ -386,23 +418,33 @@ function AppSuite() {
       <div className="section-heading">
         <p className="eyebrow">Live app suite</p>
         <h2>Launch the AIBRY apps from one place.</h2>
-        <p>The suite spans comparison, music intelligence, and execution tools built for real workflow practice.</p>
+        <p>
+          The suite spans comparison, music intelligence, and execution tools built for
+          real workflow practice.
+        </p>
       </div>
+
       <div className="series-grid">
         {suiteApps.map((app) => (
-          <article className={`series-card ${app.featured ? "series-card--featured" : ""}`} key={app.name}>
+          <article
+            className={`series-card ${app.featured ? "series-card--featured" : ""}`}
+            key={app.name}
+          >
             <div className="series-card__top">
               <span>{app.category}</span>
               <strong>Live</strong>
             </div>
+
             <AppScreenshotShowcase
               appName={app.name}
               screenshots={app.screenshots}
               defaultActiveScreenshot={app.defaultScreenshot}
               compact
             />
+
             <h3>{app.name}</h3>
             <p>{app.description}</p>
+
             <a className="button button--card" href={app.href} target="_blank" rel="noreferrer">
               Launch App
             </a>
@@ -420,6 +462,7 @@ function HowItWorks() {
         <p className="eyebrow">How it works</p>
         <h2>Learn through deliberate interaction.</h2>
       </div>
+
       <div className="flow-grid">
         {steps.map((step, index) => (
           <article className="flow-card" key={step}>
@@ -438,10 +481,19 @@ function ClosingCta() {
       <div className="cta__panel">
         <p className="eyebrow">Start using the system</p>
         <h2>Open the suite and practice inside the workflow.</h2>
-        <p>Begin with TrackMaster Comparator, then move across the AIBRY app system as your work demands sharper listening, clearer music decisions, and better execution.</p>
+        <p>
+          Begin with ChordMaster, then move across the AIBRY app system as your work
+          demands sharper listening, clearer music decisions, and better execution.
+        </p>
+
         <div className="cta__actions" aria-label="Suite launch actions">
-          <a className="button button--primary" href="https://trackmaster.aibry.shop" target="_blank" rel="noreferrer">
-            Launch TrackMaster Comparator
+          <a
+            className="button button--primary"
+            href="https://chordmaster.aibry.shop"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Launch ChordMaster
           </a>
           <a className="button button--secondary" href="#apps">
             Explore All Apps
@@ -462,12 +514,14 @@ function Footer() {
         </a>
         <p>Interactive masterclass apps that teach by doing.</p>
       </div>
+
       <nav className="footer__links" aria-label="Footer navigation">
         <a href="#trackmaster">TrackMaster</a>
         <a href="#why">Why AIBRY</a>
         <a href="#categories">Categories</a>
         <a href="#apps">Apps</a>
       </nav>
+
       <p className="copyright">© 2026 AIBRY. All rights reserved.</p>
     </footer>
   );
