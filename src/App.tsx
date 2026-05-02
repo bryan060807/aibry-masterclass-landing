@@ -63,6 +63,13 @@ const capabilities: Capability[] = [
   },
 ];
 
+const heroHighlights = [
+  "Interactive chord diagrams",
+  "Song workspace and chord search",
+  "Upload and organize song material",
+  "Built for practice, learning, and arrangement",
+];
+
 const suiteApps: SuiteApp[] = [
   {
     name: "TrackMaster",
@@ -70,7 +77,6 @@ const suiteApps: SuiteApp[] = [
     description:
       "A focused audio mastery app for sharpening reference listening, mastering judgment, and workflow confidence.",
     href: "https://trackmaster.aibry.shop",
-    featured: true,
     screenshots: [
       {
         src: "/screenshots/trackmaster/TrackMaster1.PNG",
@@ -114,17 +120,18 @@ const suiteApps: SuiteApp[] = [
     name: "ChordMaster",
     category: "Music Intelligence",
     description:
-      "A practical music intelligence app for working with harmony, chord relationships, and faster musical understanding.",
+      "Practice, analyze, and organize songs with an interactive chord workspace.",
     href: "https://chordmaster.aibry.shop",
+    featured: true,
     screenshots: [
       {
         src: "/screenshots/chordmaster/ChordMaster1.PNG",
-        alt: "ChordMaster harmony workspace screenshot",
+        alt: "ChordMaster app screenshot",
         label: "Workspace",
       },
       {
         src: "/screenshots/chordmaster/ChordMaster2.PNG",
-        alt: "ChordMaster detailed chord analysis screenshot",
+        alt: "ChordMaster chord chart workspace screenshot",
         label: "Analysis",
       },
     ],
@@ -179,7 +186,7 @@ const steps = [
   "Build judgment through repetition and real workflow pressure.",
 ];
 
-const heroApp = suiteApps.find((app) => app.name === "TrackMaster Comparator");
+const heroApp = suiteApps.find((app) => app.name === "ChordMaster");
 
 function App() {
   return (
@@ -203,22 +210,25 @@ function Hero() {
       <div className="hero__grid">
         <div className="hero__copy">
           <p className="eyebrow">AIBRY Masterclass App Series</p>
-          <h1>A system of apps designed to train real skill.</h1>
+          <h1>ChordMaster</h1>
           <p className="hero__subhead">
-            AIBRY builds interactive tools that teach by doing. Train your ear, strengthen your musical judgment, and execute through real workflows.
+            Practice, analyze, and organize songs with an interactive chord workspace.
+          </p>
+          <p>
+            ChordMaster helps musicians work through songs faster with chord search, visual diagrams, song workspace tools, file uploads, and a cleaner practice flow for learning and arranging music.
           </p>
           <div className="hero__actions" aria-label="Primary actions">
             <a className="button button--primary" href="#apps">
               Explore Apps
             </a>
-            <a className="button button--secondary" href="#trackmaster">
-              View TrackMaster
+            <a className="button button--secondary" href={heroApp?.href ?? "https://chordmaster.aibry.shop"} target="_blank" rel="noreferrer">
+              Open ChordMaster
             </a>
           </div>
           <div className="hero__proof" aria-label="Product principles">
-            <span>Interaction-first</span>
-            <span>Feedback-rich</span>
-            <span>Workflow-native</span>
+            {heroHighlights.map((highlight) => (
+              <span key={highlight}>{highlight}</span>
+            ))}
           </div>
         </div>
         {heroApp ? (
@@ -226,9 +236,9 @@ function Hero() {
             appName={heroApp.name}
             screenshots={heroApp.screenshots}
             defaultActiveScreenshot={heroApp.defaultScreenshot}
-            eyebrow="Mastering reference deck"
-            heading="TrackMaster Comparator"
-            badge="Flagship"
+            eyebrow="Interactive chord workspace"
+            heading="ChordMaster"
+            badge="Featured"
           />
         ) : null}
       </div>
@@ -376,7 +386,7 @@ function AppSuite() {
       <div className="section-heading">
         <p className="eyebrow">Live app suite</p>
         <h2>Launch the AIBRY apps from one place.</h2>
-        <p>TrackMaster Comparator leads the system, with companion apps for comparison, music intelligence, and execution.</p>
+        <p>The suite spans comparison, music intelligence, and execution tools built for real workflow practice.</p>
       </div>
       <div className="series-grid">
         {suiteApps.map((app) => (
