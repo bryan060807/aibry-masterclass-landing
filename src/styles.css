@@ -116,7 +116,7 @@ main {
   align-items: center;
   display: grid;
   gap: clamp(2.5rem, 6vw, 5rem);
-  grid-template-columns: minmax(0, 0.9fr) minmax(24rem, 1.1fr);
+  grid-template-columns: minmax(0, 0.82fr) minmax(25rem, 1.18fr);
   margin: 5.5rem auto 0;
   max-width: 1180px;
   position: relative;
@@ -124,9 +124,9 @@ main {
 }
 
 .hero__copy {
-  max-width: 43rem;
+  max-width: 40rem;
   min-width: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .eyebrow {
@@ -152,10 +152,10 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(3.6rem, 7vw, 6.15rem);
-  letter-spacing: -0.075em;
-  line-height: 0.94;
-  max-width: 100%;
+  font-size: clamp(3.25rem, 6.15vw, 5.4rem);
+  letter-spacing: -0.065em;
+  line-height: 0.95;
+  max-width: 9.6ch;
   overflow-wrap: normal;
   text-wrap: balance;
 }
@@ -710,12 +710,13 @@ p {
 
   .hero__grid {
     gap: 2.75rem;
-    grid-template-columns: minmax(0, 0.86fr) minmax(22rem, 1.14fr);
+    grid-template-columns: minmax(0, 0.78fr) minmax(23rem, 1.22fr);
   }
 
   h1 {
-    font-size: clamp(3.3rem, 7.5vw, 5.35rem);
-    letter-spacing: -0.07em;
+    font-size: clamp(3rem, 6.5vw, 4.85rem);
+    letter-spacing: -0.06em;
+    max-width: 9.6ch;
   }
 }
 
@@ -747,6 +748,7 @@ p {
   h1 {
     font-size: clamp(3.4rem, 12vw, 6rem);
     letter-spacing: -0.07em;
+    max-width: 15ch;
   }
 }
 
